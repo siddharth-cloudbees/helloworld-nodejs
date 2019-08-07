@@ -43,7 +43,7 @@ pipeline {
         submitterParameter "APPROVER"
       }
       steps {
-        echo "Continuing with deployment - approved by ${APPROVER}"
+        echo "Continuing with deployment  - approved by ${APPROVER}"
       }
     }
   }
